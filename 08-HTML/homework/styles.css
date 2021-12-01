@@ -1,16 +1,48 @@
-#spanId {
-    margin: 50px;
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+#SpanId {
+  
+    margin: 1rem;
     font-size: 18px;
+    text-align: center;
+    border: 2px solid seagreen;
+    background-color: skyblue;
+    padding: 1rem;
+
+}
+#aID{
+
+    margin: 1rem;
+    font-size: 18px;
+    padding: 1rem; 
+    background-color: crimson;
+    text-align: justify;
+    border: 2px solid slategrey;
 }
 
 #thirdDiv{
-    padding: 50px;
+    padding: 25px;
     width: 500px;
-    height: 600px;
-    background-color: slateblue;
+    height: 500px;
+    background-color: skyblue;
     border: 10px;
-    border-color: brown;
-    border-style: dotted;
-
-
+    border-color: seagreen;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image:url('https://jooinn.com/images/ocean-background-1.jpg') ;
+    color: salmon;
+}
+h1, h3, h4{
+    text-align: center;
+    border: 2px solid goldenrod;
+    background-color: darkslategray;
+    margin: 1rem;
+    padding: 1rem;
 }
