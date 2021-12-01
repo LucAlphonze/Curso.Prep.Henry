@@ -95,13 +95,13 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  if(usuario['password'] === password){
-    return true
+    if(usuario['password'] === password){
+      return true
+    }
+    else{
+      return false 
+    }
   }
-  else{
-    return false 
-  }
-}
 
 function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
